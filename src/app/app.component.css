@@ -1,0 +1,37 @@
+.main-content {
+    height: 100vh;
+    background: #EDEFF5;
+}
+
+/* Custom Modal Size */
+@media (min-width: 576px) {
+    .modal-dialog { 
+      max-width: 500px; /* Varsayılan Genişlik */
+      margin: 30px auto;
+    }
+    .modal-sm {
+      max-width: 300px;
+    }
+  }
+
+  @media (min-width: 480px) {
+    .modal-dialog { 
+        max-width: 400px; /* Varsayılan Genişlik */
+        margin: 30px auto;
+      }
+      .modal-xsmall {
+        max-width: 200px; 
+      }
+  }
+
+  @media (min-width: 992px) {
+    .modal-lg {
+      max-width: 800px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+      .modal-xlarge {
+        max-width: 1024px; 
+      }
+  }
